@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(235,233,234,255);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(235,233,234,255);
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .details  h2{
+    color: #e93426;
+    font-family: 'Protest Revolution', sans-serif;
+}
+
+.form{
+    padding: 2rem;
+    background-color: white;
+}
+form .gender{
+    border: 1px solid black;
+    /* border: none; */
+    padding: .2rem;
+    margin: .2rem;
+    outline: none;
+}
+.contact div h2,a{
+    padding: 0 .5rem;
+    /* margin: .2rem; */
+}
+form input{
+    padding: 1rem 2rem;
+    display: block;
+}
